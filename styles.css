@@ -117,10 +117,7 @@ main{
 .section-one p{
     margin: 0;
 }
-/* .section-one .section-one-img{
-    background: url("images/desktop/image-interactive.jpg");
-    background-size: cover;
-} */
+
 .creations h2{
     margin-bottom: 1em;
 }
@@ -225,14 +222,23 @@ nav{
 }
 
 @media (min-width: 750px){
-    header h1{
+    .hero h1{
         max-width: 50%;
-        margin-left: 3em;
-    }
-    header .logo{
+    }    
+    header::before{
+        content: url("images/logo.svg");
         height: 40px;
+        float: left;
+        margin: 2em;
+    }   
+    nav.main-logo{
+        height: 100px;
         margin-right: 2em;
     }
+    /* .main-logo{
+        height: 40px;
+        margin-right: 2em;
+    } */
     .nav-bar{
         visibility: unset;
         position: unset;
@@ -241,17 +247,19 @@ nav{
         margin-top: auto;
         opacity: 1;
         transform: translateX(0);
+        padding-right: 0;
     }
     .nav-list{
         display: flex; 
         width: auto;
-        margin-top: -3.4em;
+        margin-top: -3.7em;
         padding: 0;  
-        justify-content: flex-end;        
+        justify-content: flex-end;
     }
     .nav-link{
         display: block;
         color: white;
+        margin-right: 0;
     }
     .nav-list-item{
         font-size: 1.2rem;
