@@ -10,11 +10,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  
 
 
 ## Overview
@@ -28,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./loopstudios-desktop.png.jpg)
+![](./loopstudios-desktop.png)
 
 
 ### Links
