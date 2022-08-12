@@ -20,11 +20,10 @@
 </head>
 <body>
   <header>
-    <nav>
-      <a href="" class="main-logo"><img class="main-logo" src="images/logo.svg" alt="brand logo"></a>
-      <img src="images/icon-hamburger.svg" class="hamburger" id="open-btn" aria-label="open navigation">
-      <div class="nav-bar" id="nav">
-        <a href=""><img class="logo" src="images/logo.svg" alt="brand logo"></a>
+    <a href="" class="main-logo"><img class="main-logo" src="images/logo.svg" alt="brand logo"></a>
+    <img src="images/icon-hamburger.svg" class="hamburger" id="open-btn" aria-label="open navigation">
+    <nav class="nav-bar" id="nav">      
+         <a href=""><img class="logo" src="images/logo.svg" alt="brand logo"></a>
         <img class="exit" src="images/icon-close.svg" id="exit-btn" aria-label="close navigation">
         <ul class="nav-list">
           <li class="nav-list-item"><a href="" class="nav-link active">About</a></li>
@@ -33,8 +32,7 @@
           <li class="nav-list-item"><a href="" class="nav-link">Products</a></li>
           <li class="nav-list-item"><a href="" class="nav-link">Support</a></li>
         </ul> 
-      </div>
-      
+         
     </nav>  
   </header>    
     
@@ -77,27 +75,26 @@
   
   
   <footer>
-    <div>
+    <div class="footer-logo">
       <a href=""><img src="images/logo.svg"></a>
-    </div>
-    <p><a href="" class="nav-link">About</a></p>
+    </div >
+    <div class="footer-links">
+      <p><a href="" class="nav-link">About</a></p>
     <p><a href="" class="nav-link">Careers</a></p>
     <p><a href="" class="nav-link">Events</a></p>
     <p><a href="" class="nav-link">Products</a></p>
     <p><a href="" class="nav-link">Support</a></p>
-    <div>
+    </div>
+    
+    <div class="footer-social-icons">
       <a href=""><img src="images/icon-facebook.svg"></a>
       <a href=""><img src="images/icon-twitter.svg"></a>
       <a href=""><img src="images/icon-pinterest.svg"></a>
       <a href=""><img src="images/icon-instagram.svg"></a>
     </div>
   
-    © 2021 Loopstudios. All rights reserved.
+    <p class="tc">© 2021 Loopstudios. All rights reserved.</p>
   
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Akshaya Kini</a>.
-    </div>
   </footer>
 
 <script src="index.js"></script>
