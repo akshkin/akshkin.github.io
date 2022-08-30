@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/akshkin/akshkin.github.io-loopstudios-landing-page]
-- Live Site URL: [https://akshkin.github.io/akshkin.github.io-loopstudios-landing-page/]
+- Solution URL: [here](https://github.com/akshkin/loopstudios-landing-page)
+- Live Site URL: [here](https://akshkin.github.io/loopstudios-landing-page/)
 
 ## My process
 
